@@ -1,0 +1,29 @@
+h1{
+    font-size: 30px;
+    font-style: oblique;
+    color: rgb(0, 0, 0);
+    left: auto;
+    text-align: center;
+}
+
+#home{
+    background-color: rgba(0, 0, 0, 0.516);
+}
+
+#bitcoinloader{
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    height: auto;
+    width: 35%;
+    padding: 10px;
+    
+}
+
+
+@media all and (max-width:500px){
+  #bitcoinloader{
+        height: 100vh;
+        width: 100%;
+    }
+}
